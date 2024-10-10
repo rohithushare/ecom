@@ -6,8 +6,11 @@ import { SaleComponent } from './pages/sale/sale.component';
 
 const routes: Routes = [
   {
-    path: 'products',
+    path: '',
     component: HomeComponent
+  }, {
+    path: 'products',
+    redirectTo: ''
   }, {
     path: 'cart',
     component: CartComponent
